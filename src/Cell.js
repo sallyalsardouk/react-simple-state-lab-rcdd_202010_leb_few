@@ -9,7 +9,7 @@ export default class Cell extends Component {
   }
   click=()=>{
     this.state({
-      
+       color: "#333"
     })
   }
   
