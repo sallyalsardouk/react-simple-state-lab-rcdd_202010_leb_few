@@ -7,6 +7,10 @@ export default class Cell extends Component {
       color:props.value
     }
   }
+  click(){
+  }
+  
+
   render(){
-    return <div  onclick= style={{backgroundColor:this.state}}
+    return <div  onclick={this.click} style={{backgroundColor:this.state}}
   }
