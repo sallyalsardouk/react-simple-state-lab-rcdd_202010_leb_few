@@ -8,5 +8,5 @@ export default class Cell extends Component {
     }
   }
   render(){
-    return <div style={{backgroundColor:this.state}}
+    return <div  onclick= style={{backgroundColor:this.state}}
   }
