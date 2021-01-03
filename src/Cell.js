@@ -7,7 +7,7 @@ export default class Cell extends Component {
       color:props.value
     }
   }
-  click=>(){
+  click=()=>{
   }
   
 
